@@ -4,7 +4,10 @@
 		"module": "CommonJS",
 		"declaration": true,
 		"outDir": "./lib",
-		"strict": true
+		"strict": true,
+		"allowImportingTsExtensions": true,
+		"emitDeclarationOnly": false,
+		"noEmit": true
 	},
 	"include": ["src"],
 	"exclude": ["node_modules"]

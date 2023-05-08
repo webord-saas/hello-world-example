@@ -1,6 +1,6 @@
 {
 	"name": "hello-world-example",
-	"version": "1.0.0",
+	"version": "1.0.3",
 	"description": "Example Plugin for Webord",
 	"main": "index.js",
 	"repository": "https://github.com/webord-saas/hello-world-example.git",
@@ -11,8 +11,11 @@
 		"build": "tsc"
 	},
 	"devDependencies": {
+		"@types/node": "^20.1.1",
+		"@types/react": "^18.2.6",
+		"@types/react-dom": "^18.2.4",
 		"typescript": "^5.0.4",
-		"webord-plugin": "^1.0.2"
+		"webord-plugin": "^1.0.5"
 	},
 	"dependencies": {}
 }
