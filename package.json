@@ -1,0 +1,18 @@
+{
+	"name": "hello-world-example",
+	"version": "1.0.0",
+	"description": "Example Plugin for Webord",
+	"main": "index.js",
+	"repository": "https://github.com/webord-saas/hello-world-example.git",
+	"author": "Webord / HeNoMedia <dev@webord.de>",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"typescript": "^5.0.4",
+		"webord-plugin": "^1.0.2"
+	},
+	"dependencies": {}
+}
