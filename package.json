@@ -1,6 +1,6 @@
 {
 	"name": "hello-world-example",
-	"version": "1.0.3",
+	"version": "1.0.0",
 	"description": "Example Plugin for Webord",
 	"main": "index.js",
 	"repository": "https://github.com/webord-saas/hello-world-example.git",
