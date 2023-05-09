@@ -3,17 +3,20 @@
 	"version": "1.0.0",
 	"description": "Example Plugin for Webord",
 	"main": "index.js",
-	"type": "module",
 	"repository": "https://github.com/webord-saas/hello-world-example.git",
 	"author": "Webord / HeNoMedia <dev@webord.de>",
 	"license": "MIT",
 	"private": false,
 	"scripts": {
-		"build": "rm -d ./lib | tsc"
+		"build": "webpack"
 	},
 	"devDependencies": {
 		"typescript": "^5.0.4",
-		"webord-plugin": "^1.0.0"
+		"webord-plugin": "^1.0.0",
+		"webpack": "^5.82.0",
+		"webpack-cli": "^5.1.1"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"ts-loader": "^9.4.2"
+	}
 }
