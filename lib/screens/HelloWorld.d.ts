@@ -1,2 +1,2 @@
-/// <reference types="react" />
-export declare const HelloWorld: () => import("react").JSX.Element;
+import React = require('react');
+export declare const HelloWorld: () => React.DetailedReactHTMLElement<React.HTMLAttributes<HTMLElement>, HTMLElement>;
