@@ -25,4 +25,4 @@ let HelloWorldExamplePlugin = {
 
 window.HelloWorldExamplePlugin = HelloWorldExamplePlugin;
 
-export default HelloWorldExamplePlugin;
+export {HelloWorldExamplePlugin};
