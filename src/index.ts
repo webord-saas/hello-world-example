@@ -18,3 +18,5 @@ WebordValue.registerLink({
 	categoryKey: 'hello-world',
 	component: HelloWorld,
 });
+
+console.log('Hello World from Plugin');
