@@ -2,7 +2,8 @@ import {Webord} from '../node_modules/webord-plugin/lib/index';
 import {HelloWorld} from './screens/HelloWorld';
 
 declare const window: any;
-let HelloWorldExamplePlugin = {
+
+window.HelloWorldExamplePlugin = {
 	Webord: <typeof Webord>window.Webord || Webord,
 
 	init: () => {
@@ -21,7 +22,3 @@ let HelloWorldExamplePlugin = {
 		});
 	},
 };
-
-window.HelloWorldExamplePlugin = HelloWorldExamplePlugin;
-
-export {HelloWorldExamplePlugin};
