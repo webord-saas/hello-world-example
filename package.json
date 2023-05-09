@@ -9,7 +9,7 @@
 	"license": "MIT",
 	"private": false,
 	"scripts": {
-		"build": "tsc"
+		"build": "rm -d ./lib | tsc"
 	},
 	"devDependencies": {
 		"typescript": "^5.0.4",

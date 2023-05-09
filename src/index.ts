@@ -13,6 +13,6 @@ export const init = () => {
 		name: 'Hello World',
 		path: '/',
 		categoryKey: 'hello-world',
-		component: <HelloWorld />,
+		component: HelloWorld,
 	});
 };
