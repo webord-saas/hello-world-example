@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
 		"target": "ES2015",
-		"module": "AMD",
+		"module": "UMD",
 		"declaration": true,
 		"allowJs": true,
 		"outDir": "./lib",
