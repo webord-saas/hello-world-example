@@ -8,7 +8,7 @@
 	"license": "MIT",
 	"private": false,
 	"scripts": {
-		"build": "webpack"
+		"build": "tsc"
 	},
 	"devDependencies": {
 		"typescript": "^5.0.4",
