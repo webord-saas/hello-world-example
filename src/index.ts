@@ -22,8 +22,6 @@ let HelloWorldExamplePlugin = {
 	},
 };
 
-if (typeof window !== 'undefined') {
-	window.HelloWorldExamplePlugin = HelloWorldExamplePlugin;
-}
+window.HelloWorldExamplePlugin = HelloWorldExamplePlugin;
 
-export default HelloWorldExamplePlugin;
+export {HelloWorldExamplePlugin};
