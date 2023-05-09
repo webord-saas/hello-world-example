@@ -3,7 +3,7 @@ import {HelloWorld} from './screens/HelloWorld';
 
 declare const window: any;
 
-window.HelloWorldExamplePlugin = {
+let HelloWorldExamplePlugin = {
 	Webord: <typeof Webord>window.Webord || Webord,
 
 	init: () => {
@@ -22,3 +22,7 @@ window.HelloWorldExamplePlugin = {
 		});
 	},
 };
+
+window.HelloWorldExamplePlugin = HelloWorldExamplePlugin;
+
+export default HelloWorldExamplePlugin;
