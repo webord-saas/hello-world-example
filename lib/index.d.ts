@@ -1,1 +1,1 @@
-export declare const init: () => void;
+export declare const HelloWorldPlugin: (Webord: any) => void;
