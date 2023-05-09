@@ -15,4 +15,4 @@ declare let HelloWorldExamplePlugin: {
     };
     init: () => void;
 };
-export default HelloWorldExamplePlugin;
+export { HelloWorldExamplePlugin };
