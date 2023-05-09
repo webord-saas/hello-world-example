@@ -1,5 +1,5 @@
-import {Webord} from 'webord-plugin';
-import {HelloWorld} from './screens/HelloWorld.ts';
+import {Webord} from '../node_modules/webord-plugin/lib/index';
+import {HelloWorld} from './screens/HelloWorld';
 
 export const init = () => {
 	Webord.registerCategory({
@@ -13,6 +13,6 @@ export const init = () => {
 		name: 'Hello World',
 		path: '/',
 		categoryKey: 'hello-world',
-		component: HelloWorld,
+		component: <HelloWorld />,
 	});
 };

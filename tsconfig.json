@@ -1,14 +1,14 @@
 {
 	"compilerOptions": {
-		"target": "ES6",
-		"module": "CommonJS",
+		"target": "ES2015",
+		"module": "AMD",
 		"declaration": true,
+		"allowJs": true,
 		"outDir": "./lib",
 		"strict": true,
-		"allowImportingTsExtensions": true,
-		"emitDeclarationOnly": false,
-		"noEmit": true
+		"noEmit": false,
+		"jsx": "preserve"
 	},
 	"include": ["src"],
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules", "**/__tests__/*"]
 }
