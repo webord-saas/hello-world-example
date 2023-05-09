@@ -2,11 +2,7 @@ import {Webord} from '../node_modules/webord-plugin/lib/index';
 import {HelloWorld} from './screens/HelloWorld';
 
 class HelloWorldExamplePlugin {
-	WebordVal: typeof Webord | null = null;
-
-	constructor(WebordParam: typeof Webord) {
-		this.WebordVal = WebordParam || Webord;
-	}
+	WebordVal: typeof Webord = window.Webord || Webord;
 
 	init = () => {
 		if (!this.WebordVal) {
