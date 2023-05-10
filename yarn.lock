@@ -1634,10 +1634,10 @@ watchpack@^2.4.0:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
 
-webord-plugin@^1.0.0:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/webord-plugin/-/webord-plugin-1.0.8.tgz#3ebab4eb4c99ac59f1eeba9fdacb20fc2ef08195"
-  integrity sha512-tn63I45dY95GQyTCcgq6MRCYgRYHjTcV0JQh7z7V7JaH91kYu/ghLwdtX7Bo5+T+0Zazlvt6G1QBFY1Pz7X0wQ==
+webord-plugin@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/webord-plugin/-/webord-plugin-1.0.10.tgz#1982cf90cb5aafcfb3ca86d3fef959c562c5fff4"
+  integrity sha512-IHFjMZNbA7ZHk5KcdKDSSkWYTJDxp4RTWRdm8xWn0cCjF21PTJ7esbDMCDgeeq8fA4X5UXWg3ooTZvsxJtshmw==
 
 webpack-cli@^5.1.1:
   version "5.1.1"
