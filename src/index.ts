@@ -1,9 +1,8 @@
-import {Webord} from '../node_modules/webord-plugin/lib/index';
 import {HelloWorld} from './screens/HelloWorld';
 
 declare const window: any;
 
-let WebordValue = window.Webord || Webord;
+let WebordValue = window.WebordPlugin;
 
 WebordValue.registerCategory({
 	key: 'hello-world',
