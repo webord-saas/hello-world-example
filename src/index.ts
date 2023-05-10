@@ -1,8 +1,8 @@
-import {HelloWorld} from './screens/HelloWorld';
+const HelloWorld = () => {
+	return (document.createElement('p').innerHTML = 'Hello World from Plugin');
+};
 
-declare const window: any;
-
-let WebordValue = window.WebordPlugin;
+let WebordValue = (window as any).WebordPlugin;
 
 WebordValue.registerCategory({
 	key: 'hello-world',
