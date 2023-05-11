@@ -21,5 +21,5 @@ WebordValue.registerLink({
 	name: 'Hello World',
 	path: '/',
 	categoryKey: 'hello-world',
-	component: HelloWorld,
+	component: <HelloWorld />,
 });
