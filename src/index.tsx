@@ -21,8 +21,8 @@ WebordValue.registerAction({
 	name: 'removePlugin',
 	exec: () => {
 		console.log('removePlugin');
+		Webord.removeLink('hello-world');
 
 		Webord.removeCategory('hello-world');
-		Webord.removeLink('hello-world');
 	},
 });
