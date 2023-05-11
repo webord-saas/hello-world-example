@@ -4,8 +4,8 @@ const {CheckerPlugin} = require('awesome-typescript-loader');
 
 module.exports = {
 	entry: {
-		'index': './src/index.ts',
-		'index.min': './src/index.ts',
+		'index': './src/index.tsx',
+		'index.min': './src/index.tsx',
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),
@@ -17,6 +17,7 @@ module.exports = {
 	resolve: {
 		extensions: ['.ts', '.tsx', '.js'],
 	},
+	mode: 'development',
 	devtool: 'source-map',
 	optimization: {
 		minimize: true,
@@ -25,8 +26,13 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.tsx?$/,
+				test: /\.ts?$/,
 				loader: 'awesome-typescript-loader',
+				exclude: /node_modules/,
+			},
+			{
+				test: /\.tsx?$/,
+				use: 'ts-loader',
 				exclude: /node_modules/,
 			},
 		],

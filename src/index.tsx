@@ -1,7 +1,11 @@
 import {Webord} from 'webord-plugin';
 
 const HelloWorld = () => {
-	return (document.createElement('p').innerHTML = 'Hello World from Plugin');
+	return (
+		<div>
+			<h1>Hello World from Plugin</h1>
+		</div>
+	);
 };
 
 let WebordValue: typeof Webord = (window as any).WebordPlugin;
@@ -19,12 +23,3 @@ WebordValue.registerLink({
 	categoryKey: 'hello-world',
 	component: HelloWorld,
 });
-
-const onUnmount = () => {
-	WebordValue.removeCategory('hello-world');
-	WebordValue.removeLink('hello-world');
-};
-
-WebordValue.registerAction({name: 'onUnmount', exec: onUnmount});
-
-console.log('Hello World from Plugin');
