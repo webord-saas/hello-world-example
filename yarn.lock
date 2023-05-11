@@ -2002,9 +2002,9 @@ watchpack@^2.4.0:
     graceful-fs "^4.1.2"
 
 webord-plugin@^1.0.10:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/webord-plugin/-/webord-plugin-1.0.12.tgz#0a49f63e5561d6cbc5e0bf4b8f521fef71f05590"
-  integrity sha512-S+/t8YXgBlx73cyZGVazLS0cdxLX4K1EVGV4giA6lf06sp0EDsnD+l+n1wRaG99zShmTTOtFBV5MtHI25wczOg==
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/webord-plugin/-/webord-plugin-1.0.13.tgz#f677d9aad8a70923cde3f105fb929313a7ab8098"
+  integrity sha512-+EDpdl2ms4b8N1UC+Y6uqpUthdnHDmQSYZorG49pT04IOIe761QMcsNCcoXG4eGFHWU5LjPUhqXNT//3tVuH3w==
 
 webpack-cli@^5.1.1:
   version "5.1.1"
