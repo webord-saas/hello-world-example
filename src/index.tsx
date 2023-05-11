@@ -1,12 +1,5 @@
 import {Webord} from 'webord-plugin';
-
-const HelloWorld = () => {
-	return (
-		<div className="w-full h-full flex items-center justify-center">
-			<h1>Hello World from Plugin</h1>
-		</div>
-	);
-};
+import {HelloWorld} from './screens/HelloWorld';
 
 let WebordValue: typeof Webord = (window as any).WebordPlugin;
 
