@@ -13,13 +13,13 @@ let WebordValue: typeof Webord = (window as any).WebordPlugin;
 WebordValue.registerCategory({
 	key: 'hello-world',
 	name: 'Hello World from Plugin',
-	path: '/hello-world',
+	path: '/',
 });
 
 WebordValue.registerLink({
 	key: 'hello-world',
 	name: 'Hello World',
-	path: '/',
+	path: '/hello-world',
 	categoryKey: 'hello-world',
 	component: <HelloWorld />,
 });
