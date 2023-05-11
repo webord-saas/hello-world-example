@@ -17,7 +17,7 @@ WebordValue.registerLink({
 	component: <HelloWorld />,
 });
 
-Webord.registerAction({
+WebordValue.registerAction({
 	name: 'removePlugin',
 	exec: () => {
 		console.log('removePlugin');
