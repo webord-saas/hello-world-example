@@ -16,15 +16,3 @@ WebordValue.registerLink({
 	categoryKey: 'hello-world',
 	component: <HelloWorld />,
 });
-
-WebordValue.registerAction({
-	name: 'removePlugin',
-	exec: () => {
-		console.log('removePlugin');
-		try {
-			WebordValue.removeLink('hello-world');
-
-			WebordValue.removeCategory('hello-world');
-		} catch (error) {}
-	},
-});
